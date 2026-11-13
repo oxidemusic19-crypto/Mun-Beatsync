@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SYNCBEAT</string>
+    <string name="tagline">One Beat. Every Device.</string>
+    <string name="host_party">Host Party</string>
+    <string name="join_party">Join Party</string>
+    <string name="create_room_title">Host a Party</string>
+    <string name="join_room_title">Join a Party</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="import_audio">Import Audio (MP3 / WAV)</string>
+    <string name="room_code_label">Room Code</string>
+    <string name="sync_status_locked">LOCKED</string>
+    <string name="sync_status_correcting">SYNCING</string>
+    <string name="sync_status_buffering">BUFFERING</string>
+    <string name="sync_status_reconnecting">RECONNECTING</string>
+    <string name="sync_status_host">HOST CLOCK</string>
+    <string name="sync_health_label">Sync Health</string>
+    <string name="cd_syncbeat_logo">SYNCBEAT logo</string>
+    <string name="cd_play_pause">Play or pause</string>
+    <string name="cd_previous_track">Previous track</string>
+    <string name="cd_next_track">Next track</string>
+    <string name="cd_shuffle">Toggle shuffle</string>
+    <string name="cd_repeat">Toggle repeat</string>
+    <string name="cd_qr_code">Room QR code</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_album_art">Album artwork</string>
+    <string name="cd_send_message">Send message</string>
+    <string name="cd_close">Close</string>
+    <string name="audio_settings_title">Audio Settings</string>
+    <string name="cd_audio_settings">Open audio settings</string>
+</resources>

@@ -1,4 +1,3 @@
-
 name: Build Android APK
 
 on:
@@ -23,14 +22,14 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v6
+        with:
+          gradle-version: '9.3.1'
 
       - name: Build APK
-        run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+        run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: My-Android-APK
+          name: Mun-BeatSync-APK
           path: app/build/outputs/apk/debug/*.apk
